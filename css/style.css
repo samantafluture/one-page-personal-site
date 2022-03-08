@@ -54,7 +54,7 @@ a {
 .main {
 	padding: 50px 0;
 	text-align: center;
-	width: 460px;
+	width: 100%;	
 	margin: 0 auto;
 }
 
@@ -95,4 +95,16 @@ a {
 
 .contactBtn:hover {
 	background-color: #4184e4;
+}
+
+@media only screen and (max-width: 1199px) {
+	.main {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.main {
+		width: 460px;
+	}
 }
