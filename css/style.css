@@ -75,6 +75,10 @@ a {
 	color: #cad4dd;
 }
 
+.main li {
+	padding: 2px 0;
+}
+
 .main img {
 	max-width: 30%;
 	margin: 0;
